@@ -1,0 +1,204 @@
+﻿<!-- https://www.belpressa.ru/society/obrazovanie/30534.html
+ https://сопк.рф/industrialnyj-kolledzh-staryj-oskol/#i-2 -->
+<?php 
+    require_once 'database.php';
+    require_once 'fun.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Виртуальный музей</title>
+    <link rel="stylesheet" href="./styiles5.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" type="image" href="логотипСИТТ.png">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="container8" href="#"><img src="логотипСИТТ.png" alt="Логотип"></div>
+        <div class="wrapper1">
+            <div class="navigation1">
+                <div class="container1" href="#"><img src="логотипСИТТ.png" alt="Логотип"></div>
+                <ul class="nav">
+                    <li><a href="news.html">Новости</a></li>
+                    <!-- <li><a href="map.html">Карта сайта</a></li> -->
+                    <li><a href="info.html">О нас</a></li>
+                    <!-- <li><a href="#">Версия для слабовидящих</a></li> -->
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="wrapper">
+            <h1 class="title">Добро пожаловать!</h1>
+            <p class="description">Это виртуальный музей ОГАПОУ "СИТТ". Наше учебное заведение является одним из старейших в городе и области. Сегодня мы приглашаем вас совершить виртуальную экскурсию по нашему техникуму
+                .</p>
+            <a class="btn1" href="virtyal.html">Подробнее</a>
+            <a class="container2"><img src="логотипСИТТ.png" alt="Техникум"></a>
+        </div>
+    </div>
+    <div class="page">
+        <div class="wrapper">
+            <div class="s0">
+            <div class="center">
+                <h2 class="h2">🏛️ Разделы музея 🏛️</h2>
+                <p>Музей - это место, где встречаются настоящее и прошлое, здесь ощущается, как дух ушедших времен наполняет нас</p>
+            </div>
+            <ul class="menu">
+                <li>
+		<input id="layout-single" type="radio" name="layout" checked>
+		<label for="layout-single" class="btn10">Выпускники</label>
+		</li>
+		<li>
+		<input id="layout-fonts" type="radio" name="layout" >
+		<label for="layout-fonts" class="btn40">История техникума</label>
+		</li>
+            </ul>
+            <div class="first_div">
+                <div class="box">
+                    <div class="box-item">
+                    <!-- <a href="#/" style=" text-decoration: none" class="box-item"> -->
+                            <div class="box-text" >
+                                <img class="box-img" src="emel.jpg">
+                                <h3>Фёдор Емельяненко </h3>
+                                <p>Заслуженный мастер спорта, чемпион Европы по дзюдо, неоднократный чемпион России и мира по боевому самбо и боям без правил;</br>выпускник 1994 года по профессии «электромонтёр по ремонту и обслуживанию электрооборудования».</p>
+                            </div>
+                    </div>
+                    <!-- </a> -->
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-img" src="malin.jpg">
+                            <h3>Михаил Малинин</h3>
+                            <p>Мастер спорта по боксу, чемпион России, победитель Кубка СССР, заслуженный тренер России, ведущий тренер спортшколы «Золотые перчатки»;</br>выпускник 1992 года по профессии «токарь».</p>
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-img" src="vor.jpg">
+                            <h3>Владимир Воронов </h3>
+                            <p> Мастер спорта по дзюдо, чемпион СССР среди вооружённых сил, отличник физической культуры, заслуженный тренер России, воспитавший чемпионов мира: Фёдора Емельяненко, Дмитрия Самойлова, Кирилла Сидельникова; выпускник 1983 года по профессии «электромонтёр по ремонту и обслуживанию электрооборудования».</p>
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-img" src="gal.jpg">
+                            <h3>Михаил Гала</h3>
+                            <p></br>Мастер спорта международного класса по боксу, чемпион Европы, бронзовый призёр Игр доброй воли, неоднократный чемпион России; выпускник 1997 года по профессии «машинист крана металлургического производства».</p>
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-img" src="lvov_evg.jpg">
+                            <h3>Евгений Львов</h3>
+                            <p></br>Мастер спорта международного класса, трёхкратный призёр первенства СССР по дзюдо, победитель международных турниров, чемпион мира среди борцов- ветеранов; выпускник 1983 года по профессии «электромонтёр по ремонту и обслуживанию электрооборудования».</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth_div">
+                <div class="box">
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-imgр" src="про14.jpg">
+                            <h3>1980 г.</h3>
+                            <p>Образование ПУ № 14.</p>
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-imgр" src="жкх.jpeg">
+                            <h3>2011 год</h3>
+                            <p>Два Старооскольских профтехучилища (№12 и 14) объединили в техникум строительства, транспорта и ЖКХ.</p>
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-text">
+                            <img class="box-imgр" src="sit.jpeg">
+                            <h3>1 сентября 2015 год</h3>
+                            <p>Создание ОГАПОУ "СИТТ"</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <p class="hi">Музей – это, в первую очередь, вы</p>
+    <div class="footer">
+        <div class="wrapper">
+            <p>  ОГАПОУ "СИТТ" 2025</p>
+        </div>
+    </div>
+<!--Табличные кнопки -->
+<div class="chatbot__btn bounce-7">
+<div class="chatbot__tooltip d-none"></div>
+</div>
+<!-- FingerPrint JS -->
+<script src="fp2.js"></script>
+<!-- ChatBot JS -->
+<script src="chatbot2.js"></script>
+<script>
+// конфигурация чат-бота
+const configChatbot = {};
+// CSS-селектор кнопки, посредством которой будем вызывать окно диалога с чат-ботом
+configChatbot.btn = '.chatbot__btn';
+// ключ для хранения отпечатка браузера
+configChatbot.key = 'fingerprint';
+// реплики чат-бота
+configChatbot.replicas = { 
+bot: {
+    0: {
+      content: 'Привет! Я Вольт - бот поддержки сайта!', human: [0, 1, 2]
+    },
+    1: { content: 'Я тоже рад, как мне к Вам обращаться?', human: [3] },
+    2: { content: 'Как мне к Вам обращаться?', human: [3] },
+    3: { content: '{{name}}, что Вас интересует?', human: [4, 5, 6] },
+    4: { content: '{{name}}, без проблем, статья с навигацией скоро будет добавлена', human: [4] },
+    5: { content: "{{name}}, статья о разработчиках скоро будет добавлена", human: [5] },
+    6: { content: '{{name}}, статья об организации скоро будет добавлена', human: [6] }
+  },
+  human: {
+    0: { content: 'Рад с тобой познакомиться)', bot: 1 },
+    1: { content: 'Салют!', bot: 2 },
+    2: { content: 'Привет, Вольт!', bot: 2 },
+    3: { content: '', bot: 3, name: 'name' },
+    4: { content: 'Помоги мне с навигацией', bot: 4 },
+    5: { content: 'Хочу связаться с разработчиками сайта', bot: 5 },
+    6: { content: 'Расскажи об этой организации', bot: 6 }
+  }
+};
+// корневой элемент
+configChatbot.root = SimpleChatbot.createTemplate();
+// URL chatbot.php
+configChatbot.url = 'chatbot2.php';
+// создание SimpleChatbot
+let chatbot = new SimpleChatbot(configChatbot);
+// при клике по кнопке configChatbot.btn
+document.querySelector(configChatbot.btn).onclick = function (e) {
+this.classList.add('d-none');
+const $tooltip = this.querySelector('.chatbot__tooltip');
+if ($tooltip) {
+$tooltip.classList.add('d-none');
+}
+configChatbot.root.classList.toggle('chatbot_hidden');
+chatbot.init();
+};
+// добавление ключа для хранения отпечатка браузера в LocalStorage
+let fingerprint = localStorage.getItem(configChatbot.key);
+if (!fingerprint) {
+Fingerprint2.get(function (components) {
+fingerprint = Fingerprint2.x64hash128(components.map(function (pair) {
+return pair.value
+}).join(), 31)
+localStorage.setItem(configChatbot.key, fingerprint)
+});
+}
+</script>
+ <!--Чат-бот -->
+<!--Конечная часть -->
+</body>
+</html>
